@@ -9,7 +9,7 @@ public class LowerAndLowerAndUpperBoundedTest {
 
     class LowerAndUpperBounded {
 
-        public static void add(List<? extends Number> inputs, List<? super Number> output){
+        public static void add(List<Object> inputs, List<Object> output){
             output.addAll(inputs);
         }
 

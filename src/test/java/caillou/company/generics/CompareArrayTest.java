@@ -7,7 +7,7 @@ public class CompareArrayTest {
 
     class CompareArray {
 
-        public static <T> boolean compareArrays(T[] array1, T[] array2){
+        public static boolean compareArrays(Object[] array1, Object[] array2){
             if (array1.length != array2.length) {
                 return false;
             }

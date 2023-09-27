@@ -10,7 +10,7 @@ public class SumOddNumberTest {
 
     class SumOddNumber {
 
-        public static <T extends Number> double calculateNumberSum(List<T> numbers) {
+        public static double calculateNumberSum(List<Object> numbers) {
             double oddSum = 0;
 
             for (Number number : numbers) {

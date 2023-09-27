@@ -10,7 +10,7 @@ public class FindElementTest {
 
     class FindElement {
 
-        public static <T> int findIndexOfElement(List<T> list, T target) {
+        public static int findIndexOfElement(List<Object> list, Object target) {
             for (int i = 0; i < list.size(); i++) {
                 if (list.get(i).equals(target)) {
                     return i;
@@ -20,7 +20,7 @@ public class FindElementTest {
             return -1;
         }
 
-        public static <T> T getFirst(List<? extends T> elements){
+        public static Object getFirst(List<Object> elements){
             return elements.get(0);
         }
 

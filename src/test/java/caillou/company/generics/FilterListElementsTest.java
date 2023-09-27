@@ -12,10 +12,10 @@ public class FilterListElementsTest {
 
     class FilterListElements{
 
-        public static <T> List<T> filterList(List<T> originalList, Predicate<T> predicate) {
-            List <T> filteredList = new ArrayList<>();
+        public static List<Object> filterList(List<Object> originalList, Predicate<Object> predicate) {
+            List <Object> filteredList = new ArrayList<>();
 
-            for (T element: originalList) {
+            for (Object element: originalList) {
                 if (predicate.test(element)) {
                     filteredList.add(element);
                 }
@@ -25,10 +25,10 @@ public class FilterListElementsTest {
         }
 
 
-        public static <T extends Number> List<T> filterNumberList(List<T> originalList, Predicate<? super Number> predicate) {
-            List <T> filteredList = new ArrayList<>();
+        public static List<Object> filterNumberList(List<Object> originalList, Predicate<Object> predicate) {
+            List <Object> filteredList = new ArrayList<>();
 
-            for (T element: originalList) {
+            for (Object element: originalList) {
                 if (predicate.test(element)) {
                     filteredList.add(element);
                 }

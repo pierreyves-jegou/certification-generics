@@ -9,11 +9,11 @@ public class UnboundedTest {
 
     class Unbounded {
 
-        public static void printList(List<?> elements) {
+        public static void printList(List<Object> elements) {
             elements.forEach(e -> System.out.println(e.toString()));
         }
 
-        public static boolean containsRef(Object input, List<?> elements) {
+        public static boolean containsRef(Object input, List<Object> elements) {
             for (Object element : elements) {
                 if (element == input) {
                     return true;
