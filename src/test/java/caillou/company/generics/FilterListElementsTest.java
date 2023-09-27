@@ -45,26 +45,30 @@ public class FilterListElementsTest {
     @Test
     void testIt(){
 
-        //Given
-        List<Integer> integers = List.of(1, 2, 3, 4);
+        // TODO uncomment me
 
-        // L'objectif ici
-        Assertions.assertEquals(List.of(1, 2, 3), FilterListElements.filterList(integers, i -> i <= 3));
+//        //Given
+//        List<Integer> integers = List.of(1, 2, 3, 4);
+//
+//        // L'objectif ici
+//        Assertions.assertEquals(List.of(1, 2, 3), FilterListElements.filterList(integers, i -> i <= 3));
     }
 
 
     @Test
     void testLowerBounded(){
 
-        // Given
-        List<Integer> integers = List.of(1, 2, 3, 4);
-        List<Float> floats = List.of(1f, 2f, 3f, 4f);
-        Predicate<Number> predicate = i -> i.doubleValue() <= 3d;
+        // TODO uncomment me
 
-
-        // L'objectif ici est de pouvoir passer une liste qui étend Number et d'avoir un super prédicat
-        Assertions.assertEquals(List.of(1, 2, 3), FilterListElements.filterNumberList(integers, predicate));
-        Assertions.assertEquals(List.of(1f, 2f, 3f), FilterListElements.filterNumberList(floats, predicate));
+//        // Given
+//        List<Integer> integers = List.of(1, 2, 3, 4);
+//        List<Float> floats = List.of(1f, 2f, 3f, 4f);
+//        Predicate<Number> predicate = i -> i.doubleValue() <= 3d;
+//
+//
+//        // L'objectif ici est de pouvoir passer une liste qui étend Number et d'avoir un super prédicat
+//        Assertions.assertEquals(List.of(1, 2, 3), FilterListElements.filterNumberList(integers, predicate));
+//        Assertions.assertEquals(List.of(1f, 2f, 3f), FilterListElements.filterNumberList(floats, predicate));
     }
 
 }

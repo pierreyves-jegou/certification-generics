@@ -12,12 +12,12 @@ public class SumOddNumberTest {
 
         public static double calculateNumberSum(List<Object> numbers) {
             double oddSum = 0;
-
-            for (Number number : numbers) {
-                if (number.doubleValue() % 2 != 0) {
-                    oddSum += number.doubleValue();
-                }
-            }
+// TODO uncomment me
+//            for (Number number : numbers) {
+//                if (number.doubleValue() % 2 != 0) {
+//                    oddSum += number.doubleValue();
+//                }
+//            }
             return oddSum;
         }
 
@@ -26,10 +26,10 @@ public class SumOddNumberTest {
 
     @Test
     void testIt(){
-
-        List<Integer> integers = List.of(1,2,3);
-        double oddSum = SumOddNumber.calculateNumberSum(integers);
-        Assertions.assertEquals(4.0, oddSum);
+// TODO uncomment me
+//        List<Integer> integers = List.of(1,2,3);
+//        double oddSum = SumOddNumber.calculateNumberSum(integers);
+//        Assertions.assertEquals(4.0, oddSum);
     }
 
 }

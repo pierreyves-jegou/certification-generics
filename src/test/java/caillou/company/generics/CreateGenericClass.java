@@ -36,16 +36,18 @@ public class CreateGenericClass {
     @Test
     void isFlexibleEnough(){
 
-        // L'objectif ici est de modifier la classe "MyPair" en utilisant les générics pour plus de flexibilité
+        // TODO uncomment me
 
-        MyPair<String, String> pairOfStrings = new MyPair<>("key", "value");
-        MyPair<Integer, Integer> pairOfIntegers = new MyPair<>(1, 1);
-        MyPair<String, Integer> pairOfStringAndInteger = new MyPair<>("key", 1);
-
-        Assertions.assertEquals("key", pairOfStrings.getLeft());
-        Assertions.assertEquals(1, pairOfIntegers.getLeft());
-        Assertions.assertEquals("key", pairOfStringAndInteger.getLeft());
-        Assertions.assertEquals(1, pairOfStringAndInteger.getRight());
+//        // L'objectif ici est de modifier la classe "MyPair" en utilisant les générics pour plus de flexibilité
+//
+//        MyPair<String, String> pairOfStrings = new MyPair<>("key", "value");
+//        MyPair<Integer, Integer> pairOfIntegers = new MyPair<>(1, 1);
+//        MyPair<String, Integer> pairOfStringAndInteger = new MyPair<>("key", 1);
+//
+//        Assertions.assertEquals("key", pairOfStrings.getLeft());
+//        Assertions.assertEquals(1, pairOfIntegers.getLeft());
+//        Assertions.assertEquals("key", pairOfStringAndInteger.getLeft());
+//        Assertions.assertEquals(1, pairOfStringAndInteger.getRight());
     }
 
 

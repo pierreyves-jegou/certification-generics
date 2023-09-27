@@ -29,23 +29,28 @@ public class FindElementTest {
 
     @Test
     void testIt_findIndexOfElement(){
-        // Given
-        List<Integer> integers = List.of(1,2,3);
-        List<String> strings = List.of("1","2","3");
 
-        Assertions.assertEquals(1, FindElement.findIndexOfElement(integers,2));
-        Assertions.assertEquals(1, FindElement.findIndexOfElement(strings,"2"));
+        // TODO uncomment me
+
+        //        // Given
+//        List<Integer> integers = List.of(1,2,3);
+//        List<String> strings = List.of("1","2","3");
+//
+//        Assertions.assertEquals(1, FindElement.findIndexOfElement(integers,2));
+//        Assertions.assertEquals(1, FindElement.findIndexOfElement(strings,"2"));
     }
 
 
     @Test
     void testIt_getFirst(){
-        // Given
-        List<Integer> integers = List.of(1,2,3);
-        List<String> strings = List.of("1","2","3");
+// TODO uncomment me
 
-        Assertions.assertEquals(1, FindElement.getFirst(integers));
-        Assertions.assertEquals("1", FindElement.getFirst(strings));
+        //        // Given
+//        List<Integer> integers = List.of(1,2,3);
+//        List<String> strings = List.of("1","2","3");
+//
+//        Assertions.assertEquals(1, FindElement.getFirst(integers));
+//        Assertions.assertEquals("1", FindElement.getFirst(strings));
     }
 
 }

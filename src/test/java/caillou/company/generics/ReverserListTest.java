@@ -23,15 +23,15 @@ public class ReverserListTest {
 
     @Test
     void testIt(){
-
-        // Given
-        List <Integer> numbers = List.of(1, 2, 3);
-        List <String> colors = List.of("Red", "Green", "Orange");
-
-        // L'objectif ici est de rendre la méthode "ReverserList.reverseList" générique
-
-        Assertions.assertEquals(List.of(3, 2, 1), ReverserList.reverseList(numbers));
-        Assertions.assertEquals(List.of("Orange", "Green", "Red"), ReverserList.reverseList(colors));
+// TODO uncomment me
+//        // Given
+//        List <Integer> numbers = List.of(1, 2, 3);
+//        List <String> colors = List.of("Red", "Green", "Orange");
+//
+//        // L'objectif ici est de rendre la méthode "ReverserList.reverseList" générique
+//
+//        Assertions.assertEquals(List.of(3, 2, 1), ReverserList.reverseList(numbers));
+//        Assertions.assertEquals(List.of("Orange", "Green", "Red"), ReverserList.reverseList(colors));
 
     }
 
